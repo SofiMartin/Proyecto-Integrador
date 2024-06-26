@@ -1,0 +1,104 @@
+.listar-productos-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 100px auto;
+  text-align: center;
+  
+}
+
+.listar-productos-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.listar-productos-details {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.listar-productos-image {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.registro-cabecera { 
+  display: flex;
+  justify-content:space-between; 
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bullet-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.bullet-list li::before {
+  content: '•'; /* Puedes cambiar esto por cualquier otro símbolo */
+  margin-right: 5px;
+}
+
+.checkbox-label {
+  position: relative;
+  cursor: pointer;
+  padding-left: 25px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-weight: normal; /* Evita la negrita */
+}
+
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-label label {
+  margin-right: 10px; /* Agrega un margen a la derecha del texto de la categoría o característica */
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.checkbox-label input:checked ~ .checkmark:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.category-label {
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.checkbox-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
+}
+
+

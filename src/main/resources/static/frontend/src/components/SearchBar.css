@@ -1,0 +1,20 @@
+.form-with-background{
+    background-color: #FFFFFF;
+    margin-bottom: 2%;
+    padding: 30px
+}
+
+.search-bar button {
+    min-width: 100px; 
+}
+
+ /* Contenedor principal para los calendarios */
+.react-date-range {
+  display: flex;
+}
+
+/* Contenedor individual para cada calendario */
+.react-date-range__calendar {
+  flex: 1; /* Esto permite que cada calendario ocupe todo el espacio disponible */
+  margin-right: 10px; /* Espacio entre los calendarios */
+}

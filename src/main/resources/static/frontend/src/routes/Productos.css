@@ -1,0 +1,15 @@
+.recomendados {
+  margin: 100px auto;
+}
+
+.titulo-productos {
+  font-size: 3em;
+  font-family: Arial, sans-serif;
+}
+
+.inicio{
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}

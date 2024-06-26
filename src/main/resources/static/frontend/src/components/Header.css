@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Work+Sans:wght@100;300;600&display=swap");
+
+.header {
+  background-color: #ffffff;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  color: #228b22;
+  margin-left: 10px;
+}
+
+.btn-primary.--bs-orange {
+  margin-left: 10px;
+}
+
+.fixed-height {
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-toggler {
+  border-color: #228b22;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(34, 139, 34, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 768px) {
+  .fixed-height {
+    width: 100%;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,24 @@
+.CardRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.CardRow > div {
+  flex: 1 0 21%; /* cambiar esto ajustará el ancho de las tarjetas */
+  margin: 1%; /* espacio alrededor de las tarjetas */
+}
+
+@media only screen and (max-width: 995px) {
+  /* Cambiado de 600px a 995px */
+  .CardRow > div {
+    flex: 0 0 48%;
+  }
+}
+
+/* Nueva regla para pantallas menores a 780 px aprx */
+@media only screen and (max-width: 780px) {
+  .CardRow > div {
+    flex: 0 0 100%;
+  }
+}

@@ -1,0 +1,27 @@
+.modalBody.modal-body .carousel.slide .carousel-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Preservar el aspecto */
+  max-height: 550px; /* Altura maxima en pantallas grandes */
+}
+
+.close {
+  font-size: xx-large;
+  padding: 0 12px;
+  background: #26240d;
+  color: #fff;
+}
+
+.botonImagen {
+  float: right;
+}
+
+/* Cuando el viewport tenga 768px o menos */
+@media (max-width: 768px) {
+  .modalBody.modal-body .carousel.slide .carousel-image {
+    max-height: 350px; /* Reducir la altura máxima para pantallas pequeñas */
+  }
+  .close {
+    font-size: large; /* Tamaño de fuente mas pequeño en pantallas pequeñas */
+  }
+}

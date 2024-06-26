@@ -1,0 +1,111 @@
+A continuacion se redactan los test positivos y negativos para cada historia de usuario:
+
+1. Registrar productos:
+
+Caso de prueba positivo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Navega a la sección de "Registrar Producto".
+Paso 3: Completa todos los campos obligatorios (nombre, descripción, precio, etc.).
+Paso 4: Hace clic en el botón "Guardar".
+Paso 5: El sistema muestra un mensaje de confirmación y el producto se registra con éxito.
+
+Caso de prueba negativo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Navega a la sección de "Registrar Producto".
+Paso 3: No completa todos los campos obligatorios.
+Paso 4: Intenta guardar el producto.
+Paso 5: El sistema muestra un mensaje de error indicando campos obligatorios faltantes.
+
+2. Visualizar productos en el home:
+
+Caso de prueba positivo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: La aplicación lo redirige automáticamente al "Home".
+Paso 3: En la página de inicio, el usuario puede ver una lista de productos.
+
+Caso de prueba negativo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: La aplicación no redirige al "Home" o muestra un mensaje de error.
+
+3. Visualizar detalle de producto:
+
+Caso de prueba positivo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Desde la página de inicio, hace clic en un producto.
+Paso 3: Se muestra la página de detalle del producto con información completa.
+
+Caso de prueba negativo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Desde la página de inicio, hace clic en un producto.
+Paso 3: La página de detalle del producto no se carga o muestra un mensaje de error.
+
+4. Visualizar la galería de imágenes:
+
+Caso de prueba positivo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Desde la página de detalle de producto, hace clic en la opción de "Ver Galería".
+Paso 3: Se abre la galería de imágenes y se pueden ver todas las imágenes disponibles.
+
+Caso de prueba negativo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Desde la página de detalle de producto, hace clic en la opción de "Ver Galería".
+Paso 3: La galería no se abre o muestra imágenes faltantes.
+
+5. Poder llegar hasta la página de productos y visualizarla correctamente:
+
+Caso de prueba positivo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Desde la página de inicio, navega a la sección de "Productos".
+Paso 3: La página de productos se carga correctamente con la lista de productos.
+
+Caso de prueba negativo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Intenta navegar a la sección de "Productos".
+Paso 3: La aplicación redirige a una página de error o muestra un mensaje de error.
+
+6. Poder listar productos:
+
+Caso de prueba positivo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Navega a la página de productos.
+Paso 3: La lista de productos se carga y muestra todos los productos disponibles.
+
+Caso de prueba negativo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Navega a la página de productos.
+Paso 3: La lista de productos está vacía o incompleta.
+
+7. Eliminar productos:
+
+Caso de prueba positivo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Navega a la página de productos.
+Paso 3: Selecciona un producto y elige la opción de eliminar.
+Paso 4: El producto se elimina con éxito y desaparece de la lista de productos.
+
+Caso de prueba negativo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Intenta eliminar un producto que no existe o no tiene permiso para eliminar.
+Paso 3: La aplicación muestra un mensaje de error indicando que la eliminación no fue exitosa.
+
+8. Poder visualizar el encabezado del sitio una vez iniciada la sesión:
+
+Caso de prueba positivo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: El encabezado del sitio se muestra con la información del usuario (nombre, foto de perfil, etc.).
+
+Caso de prueba negativo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: El encabezado del sitio no se muestra o muestra información incorrecta.
+
+9. Poder visualizar el cuerpo del sitio correctamente:
+
+Caso de prueba positivo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Navega por varias secciones del sitio (productos, perfil, configuración, etc.).
+Paso 3: El contenido se carga y muestra correctamente en todas las secciones.
+
+Caso de prueba negativo:
+Paso 1: El usuario inicia sesión en la aplicación.
+Paso 2: Navega por varias secciones del sitio.
+Paso 3: Encuentra errores de diseño o contenido faltante en alguna de las secciones.

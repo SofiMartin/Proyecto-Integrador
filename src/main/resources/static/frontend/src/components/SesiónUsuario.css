@@ -1,0 +1,26 @@
+.SesiónIniciada{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+}
+.NombreUsuario{ 
+    padding: 10px;
+    margin: 15px;
+    background-color: #ff6b09bd;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 15px;
+    box-shadow: 7px 5px 15px 2px #ffc29abd;
+}
+.dropdown .btn.btn-secondary{
+    text-align: center;
+    color: #fff;
+    font-size: large;
+    width: 50px;
+    height: 50px;
+    background: rgba(69, 69, 255, 0.795);
+    box-shadow: 0px 0px 10px 1.5PX rgba(6, 6, 255, 0.623);
+    border-radius: 50px;
+    cursor: pointer;
+}

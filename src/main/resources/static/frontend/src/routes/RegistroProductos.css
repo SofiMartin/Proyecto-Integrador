@@ -1,0 +1,108 @@
+
+.registro-container {
+  width: 50%;
+  margin: 100px auto; /* Añade un margen superior para separar el contenido del encabezado */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registro-cabecera { 
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: space-between; 
+  
+}
+.registro-productos {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para características seleccionadas */
+.selected {
+  background-color: lightblue;
+}
+
+/* Estilo para características no seleccionadas */
+.option {
+  background-color: white;
+  cursor: pointer;
+}
+
+.categoria-container {
+  display: flex;
+  flex-direction: column;
+  /* Estilos para el contenedor de categorias */
+}
+
+.categoria-item {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Estilos para las categorias */
+}
+
+.categoria-item.selected {
+  background-color: lightblue;
+  /* Estilos para las categorias seleccionadas */
+}
+
+.caracteristicas-container {
+  display: flex;
+  flex-direction: column;
+  /* Estilos para el contenedor de características */
+}
+
+.caracteristica-item {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Estilos para las características */
+}
+
+.caracteristica-item.selected {
+  background-color: lightblue;
+  /* Estilos para las características seleccionadas */
+}

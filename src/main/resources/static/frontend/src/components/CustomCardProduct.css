@@ -1,0 +1,73 @@
+.card.customPro {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  max-height: 500px;
+  margin: 20px auto;
+  padding: 0;
+  box-shadow: 0 0 15px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+}
+
+.card.customPro a {
+  text-decoration: none;
+}
+
+.social-buttons .share-btn {
+  margin-bottom: 20px;
+}
+
+.customPro .share-btn.--bs-orange {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+
+.customPro .share-btn-principal.--bs-orange{
+  margin-right: 12px;
+}
+.imagenmodal{
+  width: 100%;
+}
+
+.card.customPro .descripciónproducto {
+  overflow: hidden;
+  max-height: 50px;
+  margin-bottom: 20px;
+}
+
+
+/* Adaptación para pantallas pequeñas. */
+@media only screen and (max-width: 600px) {
+  .customPro .share-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Adaptación para pantallas grandes. */
+@media only screen and (min-width: 601px) {
+  .customPro .share-btn {
+    width: auto;
+    margin-right: 10px;
+  }
+}
+
+/* Adaptación para pantallas pequeñas. */
+@media only screen and (max-width: 600px) {
+  .customPro .share-btn {
+    width: 50%;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Adaptación para pantallas aún más pequeñas. */
+@media only screen and (max-width: 412px) {
+  .customPro .share-btn {
+    font-size: 0.6rem;
+    margin-bottom: 5px;
+  }
+}

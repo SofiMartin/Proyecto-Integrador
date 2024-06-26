@@ -1,0 +1,17 @@
+.body {
+  flex-grow: 1;
+  width: 100%;
+  height: auto;
+  background-color: #F2F4F8;
+  padding-top: 50px;
+}
+
+.body .container-fluid.searchBar{
+  padding: 0;  
+}
+.seccionHome.container{
+  background-image: url('/images/fondohome.jpg');
+  background-size: cover;
+  margin: 0;
+  color: #FFFFFF;
+}

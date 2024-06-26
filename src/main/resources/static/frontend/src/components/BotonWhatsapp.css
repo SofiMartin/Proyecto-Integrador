@@ -1,0 +1,39 @@
+.divWhatsapp{
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    width: auto;
+    height: 11%;
+    border-radius: 25%;
+    cursor: pointer;
+    z-index: 1; 
+}
+.btnwhatsapp.btn.btn-secondary{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    width: auto;
+    height: 11%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+img.whatsapp{
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    width: auto;
+    height: 11%;
+    border-radius: 25%;
+    cursor: pointer;
+    z-index: 1;
+}
+img.whatsapp:hover{
+    background: url(/images/whastplogo.jpg) no-repeat;/* La imagen sustituta *//* La imagen sustituta */
+    width: 105px;  /*La anchura de la nueva imagen */
+    height: 105px; /* La altura de la nueva imagen */
+    padding-left: 105px; /* Igual a la anchura de la nueva imagen */
+    
+}
+.btnwhatsapp.btn.btn-secondary:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,20 @@
+/* DatePickerCustomStyles.css */
+.react-datepicker {
+    max-width: 290px; /* Ancho del calendario */
+  }
+  
+  .react-datepicker__navigation {
+    display: none; /* Oculta los botones de navegación entre meses */
+  }
+  
+  .react-datepicker__header {
+    display: none; /* Oculta la cabecera */
+  }
+  
+  .react-datepicker__current-month {
+    display: none; /* Oculta el mes y año actual */
+  }
+  
+  .react-datepicker__month-container {
+    width: 100%; /* Ajusta el ancho del contenedor */
+  }

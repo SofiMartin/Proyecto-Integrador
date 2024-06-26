@@ -1,0 +1,37 @@
+.card.CustomCard, .card.customPro {
+    margin: 10px 0;
+    padding: 0;
+    box-shadow: 0 0 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+}
+
+.card.CustomCard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 0;
+    cursor: pointer;
+}
+.botoncategorias{
+    padding: 0;
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.card-img-top{
+    height: 25vh;
+    object-fit:cover;
+}
+
+
+
+.CustomCard.selected {
+    /* Estilos para tarjetas seleccionadas */
+    background-color: #A9A9A9; /* Puedes personalizar el color según tu diseño */
+    color: #ffffff; /* Texto en color blanco para contrastar */
+  }

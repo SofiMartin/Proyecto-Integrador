@@ -1,0 +1,58 @@
+footer {
+  display: flex;
+  width: 100vw; /* Toma el 100% del ancho de la ventana */
+  background-color: rgb(209, 206, 206);
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap; /* Permite a los elementos del flexbox ajustarse a la siguiente línea cuando no hay suficiente espacio */
+}
+
+.img_size {
+  padding-left: 15px;
+  height: 50px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+p {
+  position: relative;
+  padding-left: 15px;
+  padding-top: 1%;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Cambia el tamaño y disposición de elementos del footer cuando la pantalla se hace más pequeña */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column; /* Cambia la disposición del flexbox a columna */
+  }
+
+  .left-content,
+  .right-content {
+    justify-content: center; /* Centra los elementos en las pantallas pequeñas */
+    width: 100%; /* Toma la totalidad del ancho disponible */
+  }
+
+  .img_size {
+    height: 40px; /* Disminuye el tamaño del logo */
+  }
+
+  .logo {
+    height: 70px; /* Disminuye el tamaño de los iconos de redes sociales */
+    width: 70px;
+  }
+}
